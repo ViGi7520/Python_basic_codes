@@ -1,11 +1,11 @@
 #Car related action commands using while loops
-
+#Used boolean values to make it little more real (To avoid starting car twice)
 
 command = ""
 print("""
         start: To start the car 
         stop:  To stop the car
-        quit:  To exit the car
+        exit:  To exit the car
         help:  For help
         """)
 started = False
