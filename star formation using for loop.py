@@ -17,5 +17,5 @@ def star(n):
 
 
 # Driver Code
-n = 5
+n = int(input('Enter a number:'))
 star(n)
