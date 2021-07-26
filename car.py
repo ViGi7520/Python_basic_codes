@@ -1,13 +1,13 @@
 command = ""
 print("""
-        start - To start the car 
-        stop - To stop the car
-        quit - To exit the car
-        help - For help
+        start: To start the car 
+        stop:  To stop the car
+        quit:  To exit the car
+        help:  For help
         """)
 started = False
 while True:
-    command = input(">").lower()
+    command = input("Choose:-").lower()
     if command == "start":
         if started:
             print("Car already Started")
