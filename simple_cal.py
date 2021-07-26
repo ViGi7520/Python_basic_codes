@@ -27,7 +27,7 @@ run = True
 
 while run:
     # Take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
+    choice = input("\nEnter choice(1/2/3/4): \nTo Quit: Type quit")
 
     # Check if choice is one of the four options
     if choice in ('1', '2', '3', '4'):
